@@ -4,15 +4,15 @@
 
 跟 [Quicker](https://getquicker.net/) 等工具的某些功能相似。但本项目旨在提供一个更轻量的方式来实现该功能。
 
-- 1.2MB 大小
-- 无需安装
-- 支持设定开机自启
-- 无GUI界面，仅需简单编写配置文件
+- 1.2MB 大小。
+- 无需安装。
+- 支持设定开机自启。
+- 无GUI界面，仅需简单编写配置文件。
 
 ## 快速使用
 
-1. 在 [Releases](https://github.com/hiroi-sora/Umi-OCR/releases) 下载 `HotkeysCMD.exe`
-2. 首次运行，同目录下会生成一个 `HotkeysCMD_KeyMap.txt`
+1. 在 [Releases](https://github.com/hiroi-sora/Umi-OCR/releases) 下载 `HotkeysCMD.exe` 。
+2. 首次运行，同目录下会生成一个 `HotkeysCMD_KeyMap.txt` 。
 3. 编辑该文件，添加快捷键与命令行指令。
 
 ## 配置按键映射 `HotkeysCMD_KeyMap.txt`

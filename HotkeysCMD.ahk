@@ -3,6 +3,8 @@
 ; 文件名
 FileName := StrReplace(StrReplace(A_ScriptName, ".ahk"), ".exe") ; 脚本名
 KeyMapFileName := FileName . "_KeyMap.txt" ; 按键映射表文件名
+; 设置工作目录为脚本实际路径
+SetWorkingDir(A_ScriptDir)
 
 ; 生成模板配置文件
 GenerateKeyMapFile() {

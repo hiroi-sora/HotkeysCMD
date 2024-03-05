@@ -59,3 +59,7 @@ AutoStart
 命令行指令部分，等价于在当前目录下，调用系统的 `cmd.exe` 发送指令。您应该先在系统命令行窗口中测试指令可行，再将指令填入 `HotkeysCMD_KeyMap.txt` 。
 
 工具本身不会解析双引号`"`。指令中如果包含双引号，则双引号会原样地传入 `cmd` 。
+
+### 开发
+
+`HotkeysCMD.ahk` 使用 [AHK v2](https://www.autohotkey.com/docs/v2/) 语法编写。必须使用 v2 解释器或编译器，进行运行或编译为exe。

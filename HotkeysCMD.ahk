@@ -110,7 +110,7 @@ ReRun(tips := "") {
 
 ; 设置开机自启
 SetAutoStart(isAutoStart) {
-    lnkPath := A_StartupCommon . FileName . ".lnk"
+    lnkPath := A_StartupCommon . "\" . FileName . ".lnk"
     lnkExist := FileExist(lnkPath)
     If(isAutoStart && !lnkExist) { ; 不存在，添加
         Try {
